@@ -1,0 +1,13 @@
+<h1>Todo List</h1>
+
+<%= link_to 'New Todo', new_todo_path %>
+
+<ul>
+    <% @todos.each do |todo| %>
+        <li>
+            <%= check_box_tag "todo_#{todo.id}", todo.id, todo.completed, class: 'todo-checkbox', data: { id: todo.id } %>
+            <%= todo.title %>
+            <%= link_to 'Delete', todo, method: :delete, data: { confirm: 'Are you sure?' } %>
+        </li>
+    <% end %>
+</ul>
