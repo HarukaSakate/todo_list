@@ -9,5 +9,5 @@ rails 7.1.4
 ```
 rails server
 ```
-を実行して http://localhost:3000にアクセスしてください。
+を実行して http://localhost:3000 にアクセスしてください。
 ChromeとFirefoxで動作確認済み。
