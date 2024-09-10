@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ブラウザ上で動くtodoリストアプリです。
 
-Things you may want to cover:
+ruby 3.2.2　
+rails 7.1.4
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+任意のブラウザで
+```
+rails server
+```
+を実行して http://localhost:3000にアクセスしてください。
+ChromeとFirefoxで動作確認済み。
